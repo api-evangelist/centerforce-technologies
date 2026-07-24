@@ -1,8 +1,30 @@
 aid: centerforce-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/centerforce-technologies.png
 name: CenterForce Technologies
-description: CenterForce Technologies is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  CenterForce Technologies was a Bethesda, Maryland software company that built
+  workforce-optimization, workforce-management, and performance-analytics software
+  for contact centers. It partnered with Concerto Software for nearly a decade
+  before Concerto acquired it on 2004-04-26 to pair CenterForce's workforce and
+  contact-center management tools with Concerto's ACD, IVR, and email contact-channel
+  products. Concerto was itself taken private in 2005 and rebranded as Aspect Software
+  in 2007, absorbing the former CenterForce workforce-optimization product line. The
+  company raised roughly $6.01M; investors included Battery Ventures, Piper Sandler,
+  Aspect Software, and SightLine Partners. It surfaced in the API Evangelist network
+  as a Battery Ventures portfolio lead. Enrichment (2026-07-18) confirmed it is a
+  long-defunct, acquired entity with no independent website, developer portal, or API
+  surface; there is nothing to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/centerforce-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,43 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct: true
+x-acquired: true
+x-acquired-by: concerto-software
+x-acquired-date: '2004-04-26'
+x-successor: aspect-software
+x-headquarters: Bethesda, Maryland, United States
+x-investors:
+- battery-ventures
+- piper-sandler
+- aspect-software
+- sightline-partners
+x-enrichment-note: >-
+  2026-07-18 enrichment pass — company acquired by Concerto Software in 2004 and folded
+  into Aspect Software; no live web/API surface, package, or developer program exists.
+  No API artifacts were fabricated. This lead is closed for artifact enrichment.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Contact Center
+- Call Center
+- Workforce Optimization
+- Workforce Management
+- Contact Center Analytics
+- Enterprise Software
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
