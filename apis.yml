@@ -48,7 +48,7 @@ x-enrichment-note: >-
   2026-07-18 enrichment pass — company acquired by Concerto Software in 2004 and folded
   into Aspect Software; no live web/API surface, package, or developer program exists.
   No API artifacts were fabricated. This lead is closed for artifact enrichment.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
